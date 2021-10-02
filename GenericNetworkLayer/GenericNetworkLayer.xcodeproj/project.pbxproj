@@ -14,6 +14,7 @@
 		C90C539E2706E011001FC05A /* GenericNetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C539D2706E011001FC05A /* GenericNetworkLayerTests.swift */; };
 		C90C53A82706E011001FC05A /* GenericNetworkLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C53A72706E011001FC05A /* GenericNetworkLayerUITests.swift */; };
 		C90C53AA2706E011001FC05A /* GenericNetworkLayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C53A92706E011001FC05A /* GenericNetworkLayerUITestsLaunchTests.swift */; };
+		C90C53B82706E521001FC05A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C53B72706E521001FC05A /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C90C53A32706E011001FC05A /* GenericNetworkLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericNetworkLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90C53A72706E011001FC05A /* GenericNetworkLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerUITests.swift; sourceTree = "<group>"; };
 		C90C53A92706E011001FC05A /* GenericNetworkLayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C90C53B72706E521001FC05A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		C90C538B2706E00F001FC05A /* GenericNetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				C90C53B62706E508001FC05A /* Network */,
 				C90C538C2706E00F001FC05A /* GenericNetworkLayerApp.swift */,
 				C90C538E2706E00F001FC05A /* ContentView.swift */,
 				C90C53902706E011001FC05A /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				C90C53A92706E011001FC05A /* GenericNetworkLayerUITestsLaunchTests.swift */,
 			);
 			path = GenericNetworkLayerUITests;
+			sourceTree = "<group>";
+		};
+		C90C53B62706E508001FC05A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C90C53B72706E521001FC05A /* APIManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90C53B82706E521001FC05A /* APIManager.swift in Sources */,
 				C90C538F2706E00F001FC05A /* ContentView.swift in Sources */,
 				C90C538D2706E00F001FC05A /* GenericNetworkLayerApp.swift in Sources */,
 			);
