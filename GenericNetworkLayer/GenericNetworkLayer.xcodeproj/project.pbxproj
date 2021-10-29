@@ -15,6 +15,9 @@
 		C90C53A82706E011001FC05A /* GenericNetworkLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C53A72706E011001FC05A /* GenericNetworkLayerUITests.swift */; };
 		C90C53AA2706E011001FC05A /* GenericNetworkLayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C53A92706E011001FC05A /* GenericNetworkLayerUITestsLaunchTests.swift */; };
 		C90C53B82706E521001FC05A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C53B72706E521001FC05A /* APIManager.swift */; };
+		C9FFDCB1272A5EFB00B7EF19 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFDCB0272A5EFB00B7EF19 /* APIHandler.swift */; };
+		C9FFDCB3272A60DF00B7EF19 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFDCB2272A60DF00B7EF19 /* LoginAPI.swift */; };
+		C9FFDCB5272A691C00B7EF19 /* ServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFDCB4272A691C00B7EF19 /* ServiceConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		C90C53A72706E011001FC05A /* GenericNetworkLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerUITests.swift; sourceTree = "<group>"; };
 		C90C53A92706E011001FC05A /* GenericNetworkLayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkLayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C90C53B72706E521001FC05A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C9FFDCB0272A5EFB00B7EF19 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		C9FFDCB2272A60DF00B7EF19 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		C9FFDCB4272A691C00B7EF19 /* ServiceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				C90C53B72706E521001FC05A /* APIManager.swift */,
+				C9FFDCB0272A5EFB00B7EF19 /* APIHandler.swift */,
+				C9FFDCB2272A60DF00B7EF19 /* LoginAPI.swift */,
+				C9FFDCB4272A691C00B7EF19 /* ServiceConstants.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -270,7 +279,10 @@
 			files = (
 				C90C53B82706E521001FC05A /* APIManager.swift in Sources */,
 				C90C538F2706E00F001FC05A /* ContentView.swift in Sources */,
+				C9FFDCB3272A60DF00B7EF19 /* LoginAPI.swift in Sources */,
+				C9FFDCB5272A691C00B7EF19 /* ServiceConstants.swift in Sources */,
 				C90C538D2706E00F001FC05A /* GenericNetworkLayerApp.swift in Sources */,
+				C9FFDCB1272A5EFB00B7EF19 /* APIHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
